@@ -1,0 +1,447 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.background {
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.5) ), url('grass.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.main-text h1 {
+    margin-left: 8%;
+    color: white;
+}
+
+.mainbtn button {
+    display: inline-block;
+    border-radius: 22px;
+    border: none;
+    padding: 12px;
+    width: 140px;
+    background-color: rgb(4, 155, 4);
+    margin-left: 8%;
+}
+
+.mainbtn a {
+    color: white;
+    text-decoration: none;
+}
+
+.mainbtn button:hover {
+    border: 3px solid black;
+    background-color: black;
+    transition: 0.5s;
+    padding: 13px;
+}
+
+.mainbtn a:hover {
+    color: white;
+}
+
+.topbtn {
+    background-color: rgb(0, 51, 0);
+    position: fixed;
+    width: 100%;
+    z-index: 3;
+}
+
+.topbtn:hover {
+    background-color: rgb(3, 85, 3);
+}
+
+
+.topbtn p {
+    color: white;
+    text-align: center;
+}
+
+.top-links a {
+    color: white;
+    text-decoration: none;
+    float: right;
+    margin-right: 5%;
+}
+
+.top-links a:hover {
+    color: black;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.seasonalservices h1 {
+    color: white;
+    text-align: center;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+
+.getservice h1 {
+    color: white;
+    text-align: center;
+}
+
+.getservice h3 {
+    color: white;
+    text-align: center;
+}
+
+
+.otherbtn button {
+    display: inline-block;
+    border-radius: 22px;
+    border: none;
+    padding: 12px;
+    width: 140px;
+    background-color: rgb(4, 155, 4);
+    margin: 0;
+    position: absolute;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.otherbtn a {
+    color: white;
+    text-decoration: none;
+}
+
+.otherbtn button:hover {
+    border: 3px solid white;
+    background-color: black;
+    transition: 0.5s;
+    padding: 13px;
+}
+
+.otherbtn a:hover {
+    color: white;
+}
+
+.pricing {
+    color: white;
+    text-align: center;
+}
+
+.socials {
+    text-align: center;
+}
+
+.socials a {
+    color: white;
+}
+
+.socials a:hover {
+    color: rgb(4, 155, 4);
+}
+
+
+.aboutbtn button {
+    display: inline-block;
+    border-radius: 22px;
+    border: none;
+    padding: 12px;
+    width: 140px;
+    background-color: rgb(4, 155, 4);
+    position: absolute;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.aboutbtn a {
+    color: white;
+    text-decoration: none;
+}
+
+.aboutbtn button:hover {
+    border: 3px solid black;
+    background-color: black;
+    transition: 0.5s;
+    padding: 13px;
+}
+
+.aboutbtn a:hover {
+    color: white;
+}
+
+#search {
+    margin-top: 8%; 
+    position: absolute; 
+    right: 1%;
+    margin-right: 5%;
+    border: 1px solid black;
+    background-color: rgb(255, 255, 255);
+    border-radius: 14px;
+    padding: 9px;
+    width: 350px;
+}
+
+#search:hover {
+    background-color: rgb(208, 212, 208);
+    transition: 1s;
+}
+
+::placeholder {
+    color: rgb(73, 73, 73);
+}
+
+
+.ntext h1 {
+    color: white;
+    text-align: center;
+}
+
+.centerbtn {
+    text-align: center;
+}
+
+.notfbtn button {
+    display: inline-block;
+    border-radius: 22px;
+    border: none;
+    padding: 12px;
+    width: 140px;
+    background-color: rgb(4, 155, 4);
+}
+
+.notfbtn a {
+    color: white;
+    text-decoration: none;
+}
+
+.notfbtn button:hover {
+    border: 3px solid black;
+    background-color: black;
+    transition: 0.5s;
+    padding: 13px;
+}
+
+.notfbtn a:hover {
+    color: white;
+}
+
+.ntextp {
+    color: white;
+    text-align: center;
+}
+
+.ntextp a {
+    color: white;
+}
+
+.ntextp a:hover {
+    color: black;
+}
+
+.rakingmain {
+    color: white;
+    text-align: center;
+}
+
+
+
+
+
+.rakingbtn button {
+    display: inline-block;
+    border-radius: 22px;
+    border: none;
+    padding: 12px;
+    width: 140px;
+    background-color: rgb(4, 155, 4);
+    position: absolute;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.rakingbtn a {
+    color: white;
+    text-decoration: none;
+}
+
+.rakingbtn button:hover {
+    border: 3px solid black;
+    background-color: black;
+    transition: 0.5s;
+    padding: 13px;
+}
+
+.rakingbtn a:hover {
+    color: white;
+}
+
+.searchtwo {
+    display: none;
+    
+}
+
+.searchtwo img {
+    float: right;
+    margin-right: 25px;
+    
+}
+
+.searchtwo img:hover {
+    cursor: pointer;
+}
+
+#searchthree {
+    margin-top: 95px;
+    width: 90%;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: none;
+    border: 1px solid black;
+    background-color: rgb(255, 255, 255);
+    border-radius: 14px;
+    padding: 9px;
+    z-index: 1;
+}
+
+
+#searchthree:hover {
+    background-color: rgb(208, 212, 208);
+    transition: 1s;
+}
+
+.ximage {
+    width: 20px;
+    margin-top: 100px;
+    position: relative;
+    z-index: 3;
+    margin: 0;
+    position: absolute;
+    top: 185px;
+    right: 10%;
+    transform: translate(-50%, -50%);
+}
+
+.search2 input{
+    margin-top: 90px;
+    width: 85%; 
+    height: 36px; 
+    margin: 0;
+    position: absolute;
+    top: 185px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 1px solid black;
+    background-color: rgb(255, 255, 255);
+    border-radius: 14px;
+    padding: 9px;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 1000px){
+    .top-links {
+        display: none;
+    }
+
+    .socials {
+        display: inline;
+    }
+
+    #search {
+        display: none;
+    }
+
+    .searchtwo {
+        display: block;
+        
+    }
+
+    #searchthree {
+        display: block;
+    }
+
+    #searchthing input {
+        display: none;
+    }
+
+    .search22 input {
+        display: none;
+    }
+
+
+    
+}
+
+
+
+
+
+
+
+
+#sideNav {
+    width: 250px;
+    height: 100vh;
+    position: fixed;
+    right: -250px;
+    top: 0;
+    background: black;
+    z-index: 2;
+    transition: 0.3s;
+    display: none;
+ }
+  
+ nav ul li {
+    list-style: none;
+    margin: 50px 20px;
+  
+ }
+  
+ nav ul li a {
+    text-decoration: none;
+    color: white;
+ }
+  
+ #menubtn {
+    width: 50px;
+    height: 50px;
+    background: transparent;
+    text-align: center;
+    position: fixed;
+    right: 30px;
+    top: 20px;
+    border-radius: 3px;
+    z-index: 3;
+    cursor: pointer;
+    display: none;
+ }
+  
+ #menubtn img {
+    width: 20px;
+    margin-top: 15px;
+ }
+  
+
+ @media screen and (max-width: 1000px){
+     #sideNav {
+         display: block;
+
+     }
+
+     #menubtn {
+         display: block;
+     }
+ }

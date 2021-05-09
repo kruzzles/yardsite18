@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="logo.png">
+    <title>404 Error :(</title>
+</head>
+<div class="background">
+<body style="background-color: black;">
+    <a href="home"><img src="logo.png" width="100px" style="float: left; margin-left: 2%;"></a>
+    <div class="top-links">
+        <a href="tel:780-720-6245"> Call Us </a>
+        <a href="pricing"> Pricing </a>
+        <a href="aboutus"> About Us </a>
+        <a href="https://forms.gle/brgSnravbHpGVZGa6"> Leave a Review </a>
+        <a href="mailto:spyardservices@gmail.com"> Contact Us </a>
+        <a href="home"> Home </a>
+        </div>
+        <div class="four">    
+    <br>
+    <br>
+    <br>
+    <br> 
+    <br>
+    <br>
+    <br>
+    <br> 
+    <br>
+    <h1 style="color: white; text-align: center;"> 404 error :( </h1>
+    <br>
+    <p style="color: white; text-align: center;"> the page you were looking for could not be found </p>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <button class="fourbtn"><a href="home"> Website Home </a></button></a>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <button class="fourbtn"><a href="mailto:spyardservices@gmail.com">Report this Error</a></button>
+    <br>
+    <br>
+    <br>
+    <br>
+    <p style="color: white; text-align: center;"> Or choose from commonly searched terms: </p>
+    <br>
+    <br>
+    <p style="text-align: center;">
+    <a href="pricing" style="color: white;"> Pricing </a>
+        <br>
+        <br>
+        
+        <a href="aboutus" style="color: white;"> About Us </a>
+        <br>
+        <br>
+        <a href="raking" style="color: white;"> Raking Services </a>
+        <br>
+        <br>
+        <a href="mowing" style="color: white;"> Mowing Services </a>
+        <br>
+        <br>
+        <a href="shoveling" style="color: white;"> Shoveling Services </a>
+        <br>
+        <br>
+        <a href="poopscooping" style="color: white;"> Poop Scooping Services </a>
+        <br>
+        <br>
+        <a href="https://forms.gle/brgSnravbHpGVZGa6" style="color: white;"> Leave A Review </a>
+        <br>
+        <br>
+        <a href="mailto:spyardservices@gmail.com" style="color: white;"> Contact Us </a>
+        <br>
+        <br>
+        <a href="tel:780-720-6245" style="color: white;"> Call Us </a>
+    </p>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br> 
+    <br> 
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br> 
+    <br>
+    <br>
+    <br>
+    <br>
+    <br> 
+    <br> 
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br> 
+    <br>
+    <br>
+    <br>
+    <br>
+    <br> 
+    <br> 
+</div>
+</div>
+<div id="sideNav">
+    <nav>
+        <ul>
+            <li> <a href="home"> Home </a> </li>
+            <li> <a href="mailto:spyardservices@gmail.com"> Contact Us </a> </li>
+            <li> <a href="https://forms.gle/brgSnravbHpGVZGa6"> Leave a Review</a></li>
+            <li> <a href="aboutus"> About Us </a> </li>
+            <li> <a href="pricing"> Pricing </a> </li>
+            <li> <a href="tel:780-720-6245"> Call Us </a> </li>
+        </ul>
+    </nav>
+ </div>
+ <div id="menubtn">
+     <br>
+     <br>
+   <img src="sidenav.png" id="menu" height="30px">
+ </div>
+ <script>
+    var menubtn = document.getElementById("menubtn")
+    var sideNav = document.getElementById("sideNav")
+    var menu = document.getElementById("menu")
+  
+  
+   
+ menubtn.onclick = function (){
+    if (sideNav.style.right == "-250px"){
+        sideNav.style.right = "0";
+    }
+    else{
+        sideNav.style.right = "-250px";
+    }
+ }
+ </script>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+
+        .background {
+        background: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5) ), url('grass.jpeg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        }
+
+        .top-links a{
+        margin-top: 4%;
+        color: white;
+        text-decoration: none;
+        float: right;
+        margin-right: 5%;
+        }
+
+        .top-links a:hover {
+        color: black;
+        cursor: pointer;
+        text-decoration: underline;
+        }
+
+        #sideNav {
+    width: 250px;
+    height: 100vh;
+    position: fixed;
+    right: -250px;
+    top: 0;
+    background: black;
+    z-index: 2;
+    transition: 0.3s;
+    display: none;
+ }
+  
+ nav ul li {
+    list-style: none;
+    margin: 50px 20px;
+  
+ }
+  
+ nav ul li a {
+    text-decoration: none;
+    color: white;
+ }
+  
+ #menubtn {
+    width: 50px;
+    height: 50px;
+    background: transparent;
+    text-align: center;
+    position: fixed;
+    right: 30px;
+    top: 20px;
+    border-radius: 3px;
+    z-index: 3;
+    cursor: pointer;
+    display: none;
+ }
+  
+ #menubtn img {
+    width: 20px;
+    margin-top: 15px;
+ }
+
+ .fourbtn {
+    display: inline-block;
+    position: absolute;
+    margin: 0;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    cursor: pointer;
+    border-radius: 22px;
+    border: none;
+    padding: 12px;
+    width: 140px;
+    background-color: rgb(4, 155, 4);
+ }
+
+ .fourbtn:hover {
+    border: 3px solid black;
+    background-color: black;
+    transition: 0.5s;
+    padding: 13px;
+ }
+
+ .fourbtn a {
+     color: white;
+     text-decoration: none;
+ }
+
+
+  
+
+ @media screen and (max-width: 800px){
+     #sideNav {
+         display: block;
+
+     }
+
+     #menubtn {
+         display: block;
+     }
+
+     .top-links {
+         display: none;
+     }
+ }
+
+    </style>
+</body>
+</html>
